@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Nunito", sans-serif;
+    
+  }
+  
+  button {
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-top: 20px;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background:rgb(48, 73, 148);
+    cursor: pointer;
+    border-radius: 20px;
+  }
+  
+  .login {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0 20px;
+    background:#fff;
+    display: flex;
+  }
+  
+  .login .loginContainer {
+     position: relative;
+    padding: 60px;
+    margin: auto;
+    width: 100%;
+    max-width: 500px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 50px 70px -20px rgba(0, 0, 0, 0.8);
+  }
+  
+  .login .loginContainer label {
+    color: white;
+    margin: 14px 0;
+    display: block;
+    font-size: 22px;
+    line-height: 1;
+  }
+  
+  .login .loginContainer input {
+    width: 100%;
+    font-size: 19px;
+    padding: 10px;
+    outline: none;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    border-width:1px;
+    border-color: black;
+    
+  }
+  .login .loginContainer img{
+      position: absolute;
+      top:40px;
+      left: 130px;
+      
+  }
+  
+  .login .loginContainer .btnContainer {
+    width: 100%;
+    padding: 24px 0;
+  }
+
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    font-size: smaller;
+    opacity: 1; /* Firefox */
+  }
+  
+  .login .loginContainer .btnContainer p {
+    margin: 14px 0 0 0;
+    text-align: right;
+    color: rgb(8, 91, 124);
+  }
+  
+  .login .loginContainer .btnContainer p span {
+    color: rgb(16, 42, 53);
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    margin-left: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in-out;
+  }
+  
+  
+  .login .loginContainer .btnContainer p span:hover {
+    color: red;
+  }
+  
+  .login .loginContainer .errormessage {
+    color: red;
+    font-size: 16px;
+  }
+  
+  
+  

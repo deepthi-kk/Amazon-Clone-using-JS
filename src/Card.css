@@ -1,0 +1,33 @@
+.card-container{
+    width: 160px;
+    height: 100px;
+    overflow: hidden;
+    margin: 20px;
+    box-shadow: 0px 0px 15px -5px;
+     border-radius: 10px;
+     
+}
+
+.rate-container{
+    overflow: hidden;
+    height: 200px;
+    padding:25px;
+
+  
+  padding-right: 0px;
+}
+
+h3{
+    font-size: 7px;
+    color: royalblue;
+    padding-left: 13px;
+    
+    
+}
+
+p{
+    font-size: 15px;
+    color: royalblue;
+    font-weight: lighter;
+}
+
